@@ -77,7 +77,7 @@ def mode_calculation():
             mode_range, mode_occurence = [int(range.split("-")[0]), int(range.split("-")[1])], occurence
     
     mode = float((mode_range[0] + mode_range[1]) / 2)
-    print(f"The median is: {mode:f}")
+    print(f"The mode is: {mode:f}")
 
 mean_calculation(total_weight, total_number_of_people)
 median_calculation(total_number_of_people)
